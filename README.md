@@ -2,7 +2,7 @@
 
 On considère que l'infrastructure que vous venez de finaliser est l'environnement de **développement** de votre application.
 
-- Créez maintenant l'environnement de **recette** en utilisant un nouveau fichier de variable nommé **recette.tfvars** et la [configuration partielle du backend](https://developer.hashicorp.com/terraform/language/settings/backends/configuration#partial-configuration).
+- Créez maintenant l'environnement de **recette** en utilisant un nouveau fichier de variable nommé **recette.tfvars** et la [configuration partielle du backend](https://developer.hashicorp.com/terraform/language/settings/backends/configuration#partial-configuration). Le tfstate de cet environnement devra s'appeler **terraform-XX-rec.tfstate** (en remplaçant XX par votre digit).
 
 - L'environnement de recette sera similaire à l'environnement de développement à l'exception des éléments suivants :
 
