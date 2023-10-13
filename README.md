@@ -10,6 +10,8 @@ On considère que l'infrastructure que vous venez de finaliser est l'environneme
     - Le serveur web est positionné dans un sous-réseau public différent de celui utilisé en développement
     - La variable **environnement** a pour valeur **rec**
 
+**Note : Si terraform vous le propose, utilisez le paramètre -migrate-state lorsque vous exécutez la commande *terraform init***.
+
 - Si nécessaire, ajoutez dans votre code les éléments manquants pour que l'environnement de **développement** puisse continuer d'être géré avec votre code.
 
 - Générez un plan d'exécution sur l'environnement de **développement** : Terraform ne devrait rien avoir à faire.
